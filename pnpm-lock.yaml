@@ -6,7 +6,7 @@ specifiers:
   '@vitejs/plugin-react': ^4.0.3
   mobx: ^6.10.0
   mobx-keystone: ^1.6.3
-  mobx-react-lite: 3.4.3
+  mobx-react-lite: 4.0.3
   react: ^18.2.0
   react-dom: ^18.2.0
   typescript: ^5.0.2
@@ -15,7 +15,7 @@ specifiers:
 dependencies:
   mobx: 6.10.0
   mobx-keystone: 1.6.3_mobx@6.10.0
-  mobx-react-lite: 3.4.3_dbxhtfghklbsz7sz73i6e2pcva
+  mobx-react-lite: 4.0.3_dbxhtfghklbsz7sz73i6e2pcva
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -694,10 +694,10 @@ packages:
       tslib: 2.6.0
     dev: false
 
-  /mobx-react-lite/3.4.3_dbxhtfghklbsz7sz73i6e2pcva:
-    resolution: {integrity: sha512-NkJREyFTSUXR772Qaai51BnE1voWx56LOL80xG7qkZr6vo8vEaLF3sz1JNUVh+rxmUzxYaqOhfuxTfqUh0FXUg==}
+  /mobx-react-lite/4.0.3_dbxhtfghklbsz7sz73i6e2pcva:
+    resolution: {integrity: sha512-wEE1oT5zvDdvplG4HnRrFgPwg5GFVVrEtl42Er85k23zeu3om8H8wbDPgdbQP88zAihVsik6xJfw6VnzUl8fQw==}
     peerDependencies:
-      mobx: ^6.1.0
+      mobx: ^6.9.0
       react: ^16.8.0 || ^17 || ^18
       react-dom: '*'
       react-native: '*'
@@ -710,6 +710,7 @@ packages:
       mobx: 6.10.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
 
   /mobx/6.10.0:
@@ -825,6 +826,14 @@ packages:
       escalade: 3.1.1
       picocolors: 1.0.0
     dev: true
+
+  /use-sync-external-store/1.2.0_react@18.2.0:
+    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /vite/4.4.4:
     resolution: {integrity: sha512-4mvsTxjkveWrKDJI70QmelfVqTm+ihFAb6+xf4sjEU2TmUCTlVX87tmg/QooPEMQb/lM9qGHT99ebqPziEd3wg==}
